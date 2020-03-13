@@ -93,7 +93,7 @@ GenerateSetEnv(
 option(EXTERNAL "EXTERNAL" 0)
 
 option(ENABLE_PYTHON_BINDINGS "ENABLE_PYTHON_BINDINGS" ON)
-set(PYTHON_MIN_VERSION "2.7" CACHE STRING "Minimum Python version for building")
+set(PYTHON_MIN_VERSION "3.6" CACHE STRING "Minimum Python version for building")
 add_library(scrimmage-python INTERFACE)
 if (ENABLE_PYTHON_BINDINGS)
 
